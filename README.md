@@ -7,6 +7,10 @@ You will write a C++ code to count the frequency of the words used in the file. 
 Suggested functions are:
 
 void getWords(vector<string> &words, ifstream &file) - words -> a vector of strings representing the words in the file, file -> is a reference to the ifstream object (the File).
+
+
 void sortWords(vector<string> &words) - This will sort the words collected in the getWords function.
+
+
 vector<pair<string, int>> getWordCounts(vector<string> &words) - this will calculate the word frequencies for each of the words.
 
